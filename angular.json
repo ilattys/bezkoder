@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "bezkoder:build:production",
+            "firebaseProject": "bezkoder-70531",
+            "firebaseHostingSite": "bezkoder-70531"
+          }
         }
       }
     }

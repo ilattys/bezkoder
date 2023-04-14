@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bezkoder-70531": {
+      "hosting": {
+        "bezkoder": [
+          "bezkoder-70531"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bezkoder-70531"
+  }
+}
